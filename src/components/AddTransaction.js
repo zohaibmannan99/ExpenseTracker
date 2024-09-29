@@ -6,7 +6,7 @@ const AddTransaction = () => {
   const [amount, setAmount] = useState(0);
   
   return (
-    <div>
+    <>
       <h3>Add new transaction</h3>
       <htmlForm>
         <div className="htmlForm-control">
@@ -14,15 +14,13 @@ const AddTransaction = () => {
           <input type="text" value={text} onChange={ (e) => setText(e.target.value)} placeholder="Enter text..." />
         </div>
         <div className="htmlForm-control">
-          <label htmlFor="amount"
-            >Amount <br />
-            (negative - expense, positive - income)</label
-          >
+          <label htmlFor="amount">Amount <br/>
+          (negative - expense, positive - income)</label>
           <input type="number" value={amount} onChange={ (e) => setAmount(e.target.value)} placeholder="Enter amount..." />
         </div>
         <button className="btn">Add transaction</button>
       </htmlForm>  
-    </div>
+    </>
     )
 }
 
