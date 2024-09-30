@@ -149,4 +149,49 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
+<<<<<<< HEAD
+=======
+}
+
+.list li:hover .isolate-btn {
+  opacity: 1;
+}
+
+
+.isolate-btn{
+  cursor: pointer;
+  background-color: #fb7b04;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  position: absolute;
+  padding: 2px 5px;
+  top: 50%;
+  left: 0;
+  transform: translate(-200%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.list li:hover .duplicate-btn {
+  opacity: 1;
+}
+
+
+.duplicate-btn{
+  cursor: pointer;
+  background-color: #f7d305;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  position: absolute;
+  padding: 2px 5px;
+  top: 50%;
+  left: 0;
+  transform: translate(-300%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+>>>>>>> 0890680 (added functionalities)
 }
