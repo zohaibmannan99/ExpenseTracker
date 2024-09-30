@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Balance = () => {
-  return (
-    <>
-       <h4>Your Balance</h4>
-       <h1>$0.00</h1>
-=======
 import React, {useContext} from 'react';
 import { GlobalContext } from '../context/GlobalState';
 
@@ -23,7 +14,6 @@ export const Balance = () => {
     <>
        <h4>Your Balance</h4>
        <h1>${total}</h1>
->>>>>>> 0890680 (added functionalities)
     </>
   )
 }

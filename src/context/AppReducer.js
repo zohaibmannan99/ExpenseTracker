@@ -1,9 +1,5 @@
 export default (state, action) => {
     switch(action.type) {
-<<<<<<< HEAD
-        default:
-            return state;
-=======
         case 'DELETE_TRANSACTION':
             state.transactions = state.transactions.filter(transaction => transaction.id !==
                 action.payload); 
@@ -30,6 +26,5 @@ export default (state, action) => {
             ...state,
             transactions: [...state.transactions, duplicatedTransaction]
         };
->>>>>>> 0890680 (added functionalities)
     }
 }

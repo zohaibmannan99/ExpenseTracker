@@ -149,8 +149,6 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
-<<<<<<< HEAD
-=======
 }
 
 .list li:hover .isolate-btn {
@@ -193,5 +191,4 @@ input[type='number'] {
   transform: translate(-300%, -50%);
   opacity: 0;
   transition: opacity 0.3s ease;
->>>>>>> 0890680 (added functionalities)
 }
